@@ -5,44 +5,62 @@
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 80%;
     margin: auto;
-
+    
+    border: solid;
 }
+
+
+
 h1{
     text-align:center;
     margin-bottom: 2em;
-    
+}
 
-}
-p{
-    text-align: center;
-}
+
 
  img{
     width: 100px;
-    height: 100px;
-    margin-top: 30px;
-   
+    height: 100px;   
  }
-
+ /*
 .card{
-    width: 700px ;
+    width: 100% ;
+    border: solid rgb(135, 18, 18);
+    height: 20px;
+    
    
-}    
+} */ 
     
-    
-    
-
-
+ 
 .clearfix::after{
     content:"" ;
     clear: both;
     display: table;
 }
+
 .riga{
     float: left;
     width: 33%;
-    text-align: center;
+    margin: auto px;
+    margin-top: 5%;
+    background-color: black;
+    
+    
+    
+
+
+.foto {
+    width:100px ;
+    height:100px;
+    float:left;
+}
+
+.contenuto {
+    width: 70%;
+    float: right;
+    padding:10px 10px ;
+    color: azure;
     
 }
