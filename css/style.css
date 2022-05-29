@@ -7,8 +7,7 @@
 .container {
     max-width: 80%;
     margin: auto;
-    
-    border: solid;
+    text-align: center;
 }
 
 
@@ -19,19 +18,20 @@ h1{
 }
 
 
-
- img{
+img{
     width: 100px;
-    height: 100px;   
+    height: 100px;
+       
  }
- /*
-.card{
+ 
+ 
+ .card{
     width: 100% ;
     border: solid rgb(135, 18, 18);
-    height: 20px;
+    
     
    
-} */ 
+}  
     
  
 .clearfix::after{
@@ -43,25 +43,27 @@ h1{
 .riga{
     float: left;
     width: 33%;
-    margin: auto px;
-    margin-top: 5%;
+    margin-left:2px; 
+    margin-top:5% ;
     background-color: black;
+    height: 100px;
+     
 }
     
     
-    
-
-
 .foto {
-    width:100px ;
-    height:100px;
+   
     float:left;
-}
+    
+}   
+
+
+
 
 .contenuto {
-    width: 70%;
-    float: right;
+    
+    width: ;
+    float: left;
     padding:10px 10px ;
     color: azure;
-    
 }
